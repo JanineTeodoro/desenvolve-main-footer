@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #33475B;
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+
+header {
+    background-color: #FFFFFF;
+    height: 80px;
+    display: flex;
+}
+
+.container-elementos-header {
+    width: 1280px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.titulo-principal {
+    color: #0000EE;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.label-pesquisa {
+    height: 40px;
+    background-color: #DB1E8C;
+    padding: 8px;
+    border-radius: 4px;
+    display: flex;
+    gap: 4px;
+    align-items: center;
+}
+
+.input-pesquisa {
+    background-color: transparent;
+    border: none;
+    padding: 4px;
+}
+
+::placeholder {
+    color: #FF97D3;
+    font-size: 14px;
+    padding: 2.5px;
+}
+
+.input-pesquisa:active, .input-pesquisa:focus {
+    outline: 1px solid white;
+}
+
+.trilhas {
+    display: flex;
+    flex-wrap: wrap;
+    width: 1280px;
+    margin: 0 auto;
+}
+
+.trilhas-info {
+    display: flex;
+    flex-wrap: wrap;
+    flex-flow: column;
+    padding: 32px;
+    gap: 32px;
+    width: 400px;
+    height: 450px;
+    margin: 37px 20px 40px auto;
+    background-color: #F5F5F5;
+    border-radius: 4px;
+}
+
+.trilhas-info h2 {
+    color: #364372;
+    font-size: 24px;
+}
+
+.trilhas-texto {
+    font-size: 16px;
+    line-height: 21px;
+}
+
+.conferir-ementa {
+    color: #264FEC;
+    border: 1px solid;
+    border-radius: 4px;
+    align-self: baseline;
+    margin-top: auto;
+}
